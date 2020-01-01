@@ -79,7 +79,7 @@ DATABASES = {
         'NAME': 'forward',
         'USER': 'root',
         'PASSWORD': '123456',
-        'HOST': 'localhost',
+        'HOST': '47.107.85.183',
         'PORT': '3306',
     }
 }
