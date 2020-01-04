@@ -5,4 +5,5 @@ from django.shortcuts import render
 
 
 def index(request):
-    return JsonResponse({'ret': 1, 'info': 'success'})
+    context = {'latest_question_list': 'test'}
+    return render(request, 'main/index.html', context)
